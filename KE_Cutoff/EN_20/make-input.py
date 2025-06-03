@@ -33,4 +33,4 @@ update_keyword( pwscf.kpoints, 'smesh',[0,0,0] )
 
 update_keyword( pwscf.system.ecut, 'ecutwfc', 20.0)
 update_keyword( pwscf.system.ecut, 'ecutrho', 4*20.0)
-write_pwscf_input( pwscf, "scf.inp")
+write_pwscf_input( pwscf, "scf_20.inp")
