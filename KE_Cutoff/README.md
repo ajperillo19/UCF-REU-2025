@@ -1,4 +1,5 @@
-# This directory contains the fundamental steps necessary to perform a Kinetic Energy Cutoff Optimization using the Atomic Simulation Environment (ASE) and Quantum Espresso.
+# Kinetic Energy Cutoff Optimization
+    This directory contains the fundamental steps necessary to perform a Kinetic Energy Cutoff Optimization using the Atomic Simulation Environment (ASE) and Quantum Espresso.
   
     Within it you will find two folders: 'EN_20' and 'KE_DA'. EN_** is the naming convention I utilized to track the Kinetic Energy Cutoff (KEC) I was performing SCF calculations with.
     In this case, the '20' refers to a KEC of 20 Rydberg, the standard units used by Quantum Espresso. Please look through the files in 'EN_20' and notice fields that contain 'scf_20'.
