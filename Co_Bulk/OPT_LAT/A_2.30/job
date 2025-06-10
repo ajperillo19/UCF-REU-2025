@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16 
+#SBATCH --time=10:0:00
+#SBATCH --error=%J.err
+#SBATCH --output=%J.out
+#SBATCH --job-name=job-test
+
+module purge
+
+module load qe/7.2
+
+export OMP_NUM_THREADS=1
+mpirun  pw.x  < scf_A_230.inp > scf_A_230.out 
