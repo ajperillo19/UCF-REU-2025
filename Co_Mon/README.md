@@ -1,7 +1,7 @@
 # Optimization for a Cobalt Mono-Layer Structure
 
-* Within this directory, you will find three folders: 'Mon_Cutoff', 'Mon_Cutoff', 'Mon_KP'. 'Mon_Cutoff" contains scripts necessary
-for performing relevant optimizations for the Cobalt mono-layer.
+* Within this directory, you will find three folders: 'Mon_Cutoff', 'Mon_Cutoff', 'Mon_KP'. 'Mon_Cutoff" which contain scripts necessary
+to perform relevant optimizations for the Cobalt mono-layer.
 
 * Each folder contains at least: a job script, denoted by the file tag .sh, and extraction script that extracts the relevant data,
 a make script that generates QE input files, a minimizing script that finds the minimum parameter needed for an energy convergence of 1 meV,
