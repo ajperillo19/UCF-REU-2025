@@ -1,6 +1,6 @@
 # Optimization for a Cobalt Mono-Layer Structure
 
-* Within this directory, you will find three folders, 'Mon_Cutoff', 'Mon_Cutoff', 'Mon_KP', which contain scripts necessary
+* Within this directory, you will find three folders, 'Mon_Cutoff', 'Mon_CKP', 'Mon_Latt', which contain scripts necessary
 to perform relevant optimizations for the Cobalt mono-layer.
 
 * Each folder contains at least: a job script, denoted by the file tag .sh, and extraction script that extracts the relevant data,
